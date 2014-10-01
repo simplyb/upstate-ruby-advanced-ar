@@ -1,6 +1,6 @@
 class Game < ActiveRecord::Base
   belongs_to :person
 
-  validate :title, presence: true, length: {}
+  validates :title, length: { minimum: 5, maximum: 50 }
 
 end
