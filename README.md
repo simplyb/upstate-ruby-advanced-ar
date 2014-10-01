@@ -16,4 +16,6 @@ gunzip advanced.sql.gz
 mysql advanced < advanced.sql -u advanced -p
 >advanced
 
+bundle install
+
 ruby env.rb
