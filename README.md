@@ -1,3 +1,5 @@
+#Upstate Ruby - Advanced ActiveRecord
+
 Assumes you have mysql and ruby 2 installed.
 
 git clone git@github.com:simplyb/upstate-ruby-advanced-ar.git
