@@ -1,0 +1,6 @@
+advanced:
+  adapter: mysql2
+  database: advanced
+  username: advanced
+  password: advanced
+  pool: 5

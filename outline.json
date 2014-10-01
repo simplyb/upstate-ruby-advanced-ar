@@ -1,0 +1,29 @@
+{
+  advanced: {
+    
+    intro: {
+      what_is_active_record: "database abstraction, persistence, domain logic - associations, validation",
+      what_is_active_relation(AREL): "query builder - uses abstract syntax tree (AST) to allow chaining"
+    },
+
+    relationships: ["has_many, has_one, belongs_to, has_many :through"],
+
+    validations: "http://guides.rubyonrails.org/active_record_validations.html",
+
+    crud: ["create", "read", "update", "delete"],
+
+
+
+    ar_basics: ["select", "where", "order", "joins", "group", "aggregates", "chaining"],
+
+    arel_basics: ["AST", "matches", "lt,lte,gt,gte", "aggregates"]
+
+    advanced: ["everything with arel tables", 
+               "complex queries", 
+               "select vs pluck", 
+               "performance issues - map / iteration / n+1 / eager loading"
+               ],
+    useful_gems: "bullet"
+  }
+
+}
