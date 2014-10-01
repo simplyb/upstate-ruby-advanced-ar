@@ -1,5 +1,9 @@
 Assumes you have mysql and ruby 2 installed.
 
+git clone git@github.com:simplyb/upstate-ruby-advanced-ar.git
+
+cd upstate-ruby-advanced-ar
+
 mysql -u root -p
 > enter root password
 
@@ -11,3 +15,5 @@ gunzip advanced.sql.gz
 
 mysql advanced < advanced.sql -u advanced -p
 >advanced
+
+ruby env.rb
