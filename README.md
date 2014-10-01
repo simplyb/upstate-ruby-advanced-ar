@@ -13,11 +13,13 @@ $ mysql -u root -p
 
 > grant all privileges on advanced.* to 'advanced'@'localhost' identified by 'advanced';
 
+> exit
+
 $ gunzip advanced.sql.gz
 
-$ mysql advanced < advanced.sql -u advanced -p
-> advanced
+$ mysql advanced < advanced.sql -u root -p
+> enter root password
 
 $ bundle install
 
-$ ruby env.rb
+$ pry env.rb
